@@ -16,6 +16,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # GitHub automatically creates this token
-          publish_dir: ./ # Path to your build folder
-          destination_repo: asogbu/asogbu.github.io
+          github_token: ${{ secrets.GITHUB_TOKEN }} # Automatically created by GitHub
+          publish_dir: ./ # Path to build folder
+          external_repository: asogbu/asogbu.github.io
+          publish_branch: gh-pages
