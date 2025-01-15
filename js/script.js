@@ -28,7 +28,6 @@ function navbarPadding() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    includeHTML("header", "/partials/navbar.html");
     includeHTML("header", "/partials/navbar.html", navbarPadding);
     includeHTML("footer", "/partials/footer.html");
     loadBootstrapJS();
