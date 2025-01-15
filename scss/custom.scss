@@ -1,0 +1,36 @@
+// Custom.scss
+
+// Include any default variable overrides here (though functions won't be available)
+
+$primary: #941E16;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css');
+
+@font-face {
+    font-family: 'Eras-ITC';
+    src: url('/fonts/eras-itc-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: rgb(34, 37, 41);
+    background: linear-gradient(0deg, rgba(25, 28, 31, 0.15) 40%, rgba(255, 255, 255, 0) 55%, rgba(148, 30, 22, 0.2) 100%);
+}
+
+.index-card {
+    @extend .col-md-3;
+    @extend .col-sm-4;
+    @extend .col-6;
+    @extend .mb-3;
+}
+
+.index-card-img {
+    @extend .card-img;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+}
