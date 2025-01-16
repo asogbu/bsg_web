@@ -11861,4 +11861,10 @@ body {
   object-fit: contain;
 }
 
+.logo-socios {
+  width: auto;
+  height: 50px;
+  object-fit: contain;
+}
+
 /*# sourceMappingURL=style.css.map */
