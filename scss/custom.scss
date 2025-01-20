@@ -39,3 +39,17 @@ main {
     height: 30px;
     object-fit: contain;
 }
+
+.carrusel-content {
+    @extend .w-100;
+    @extend .d-block;
+    object-fit: cover;
+    aspect-ratio: 48 / 9;
+}
+
+// Pantallas xs, s
+@media (max-width: 767px) {
+    .carrusel-content {
+        aspect-ratio: 3 / 1;
+    }
+}

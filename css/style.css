@@ -7206,7 +7206,7 @@ textarea.form-control-lg {
   display: inline-block !important;
 }
 
-.d-block {
+.d-block, .carrusel-content {
   display: block !important;
 }
 
@@ -7544,7 +7544,7 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
-.w-100 {
+.w-100, .carrusel-content {
   width: 100% !important;
 }
 
@@ -11865,6 +11865,17 @@ main {
   width: auto;
   height: 30px;
   object-fit: contain;
+}
+
+.carrusel-content {
+  object-fit: cover;
+  aspect-ratio: 48/9;
+}
+
+@media (max-width: 767px) {
+  .carrusel-content {
+    aspect-ratio: 3/1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

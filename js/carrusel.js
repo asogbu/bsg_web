@@ -1,17 +1,7 @@
 const carrusel_folder = '/img/carrusel/';
 const carruselItems = [
-    '1920_290.jpg',
-    '640_119.jpg',
-    '612_153.jpg',
-    '1500_397.jpg',
-    '1040_280.jpg.webp',
-    '1000_281.jpg',
-    '945_280.jpg.webp',
-    '1680_500.jpg',
-    '1920_640.jpg',
-    '720_264.jpg',
-    '1100_413.jpg',
-    '1200_600.png',
+    'template_3_1.png',
+    'template_48_9.png',
 ];
 
 const fileTypes = {
@@ -65,7 +55,7 @@ function loadCarouselItems() {
 
         if (itemMIME.startsWith('video')) {
             const video = document.createElement('video');
-            video.classList.add('d-block', 'w-100');
+            video.classList.add('carrusel-content');
             video.autoplay = true;
             video.loop = true;
             video.muted = true;
@@ -80,7 +70,7 @@ function loadCarouselItems() {
             divItem.appendChild(video);
         } else {
             const img = document.createElement('img');
-            img.classList.add('d-block', 'w-100');
+            img.classList.add('carrusel-content');
             img.src = carrusel_folder + file_name;
             img.alt = `Elemento de carrusel: ${file_name}`;
             divItem.appendChild(img);
