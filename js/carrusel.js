@@ -1,7 +1,7 @@
 const carrusel_folder = '/img/carrusel/';
 const carruselItems = [
-    '1.png',
-    '2.png',
+    'viaja_protegido.png',
+    'gm_inter.png',
     'template_3_1.png',
     'template_48_9.png',
 ];
