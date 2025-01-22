@@ -2,8 +2,6 @@ const carrusel_folder = '/img/carrusel/';
 const carruselItems = [
     'viaja_protegido.png',
     'gm_inter.png',
-    'template_3_1.png',
-    'template_48_9.png',
 ];
 
 const fileTypes = {
