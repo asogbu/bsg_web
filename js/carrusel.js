@@ -1,8 +1,4 @@
 const carrusel_folder = '/img/carrusel/';
-const carruselItems = [
-    'viaja_protegido.png',
-    'gm_inter.png',
-];
 
 const fileTypes = {
     jpg: 'image/jpeg',
@@ -28,13 +24,15 @@ function getFileMIME(src) {
     return fileTypes[ext] || null;
 }
 
-function loadCarouselItems() {
+function loadCarouselItems(jsonData) {
     const carouselInner = document.getElementById('carouselItems');
     const carouselIndicators = document.getElementById('carouselIndicators');
 
-    carruselItems.forEach((file_name, index) => {
+    jsonData.forEach((item, index) => {
+        const { fileName: file_name, alt } = item;
         const itemMIME = getFileMIME(file_name);
         if (!itemMIME) {
+            console.error(`Unsupported file type for ${fileName}`);
             return;
         }
         
@@ -59,7 +57,6 @@ function loadCarouselItems() {
             video.autoplay = true;
             video.loop = true;
             video.muted = true;
-
             video.setAttribute('playsinline', 'true');
 
             const source = document.createElement('source');
@@ -72,7 +69,7 @@ function loadCarouselItems() {
             const img = document.createElement('img');
             img.classList.add('carrusel-content');
             img.src = carrusel_folder + file_name;
-            img.alt = `Elemento de carrusel: ${file_name}`;
+            img.alt = alt || `Elemento de carrusel: ${file_name}`;
             divItem.appendChild(img);
         }
 
@@ -82,5 +79,15 @@ function loadCarouselItems() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadCarouselItems();
+    fetch('/carrusel.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to load carousel JSON');
+            }
+            return response.json();
+        })
+        .then(jsonData => {
+            loadCarouselItems(jsonData);
+        })
+        .catch(error => console.error('Error loading carousel data:', error));
 });
