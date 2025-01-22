@@ -29,7 +29,7 @@ function loadCarouselItems(jsonData) {
     const carouselIndicators = document.getElementById('carouselIndicators');
 
     jsonData.forEach((item, index) => {
-        const { fileName: file_name, alt } = item;
+        const { fileName: file_name, link, alt } = item;
         const itemMIME = getFileMIME(file_name);
         if (!itemMIME) {
             console.error(`Unsupported file type for ${fileName}`);
@@ -51,6 +51,7 @@ function loadCarouselItems(jsonData) {
             indic.setAttribute('aria-current', 'true');
         }
 
+        let content;
         if (itemMIME.startsWith('video')) {
             const video = document.createElement('video');
             video.classList.add('carrusel-content');
@@ -64,13 +65,23 @@ function loadCarouselItems(jsonData) {
             source.type = itemMIME;
 
             video.appendChild(source);
-            divItem.appendChild(video);
+            content = video;
         } else {
             const img = document.createElement('img');
             img.classList.add('carrusel-content');
             img.src = carrusel_folder + file_name;
             img.alt = alt || `Elemento de carrusel: ${file_name}`;
-            divItem.appendChild(img);
+            content = img;
+        }
+
+        if (link) {
+            const anchor = document.createElement('a');
+            anchor.href = link;
+            anchor.target = '_blank';
+            anchor.appendChild(content);
+            divItem.appendChild(anchor);
+        } else {
+            divItem.appendChild(content);
         }
 
         carouselInner.appendChild(divItem);
