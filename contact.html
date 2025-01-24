@@ -10,8 +10,7 @@
     <title>Bienseguro - Contacto</title>
 
     <meta property="og:title" content="Bienseguro - Contacto">
-    <!-- TODO Cambiar og:image path a URL absoluto para la versión de producción -->
-    <meta property="og:image" content="/img/open_graph_logo.png">
+    <meta property="og:image" content="http://www.bienseguro.net/img/open_graph_logo.png">
     <meta property="og:url" content="http://www.bienseguro.net/contact.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Bienseguro - Contacto">
@@ -53,7 +52,7 @@
         <!-- Form -->
         <section class="py-4">
             <div class="container">
-                <form>
+                <form action="https://formsubmit.co/b4b249aea494c8aecc44204ff89077e4" method="POST">
                     <div class="mb-3">
                         <label for="name" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="name" name="name" required>
@@ -102,6 +101,8 @@
                     <div class="mb-3 text-center">
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </div>
+
+                    <input type="hidden" name="_cc" value="santiago.orozco@bienseguro.net">
                 </form>
             </div>
         </section>
