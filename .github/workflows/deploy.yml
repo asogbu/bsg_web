@@ -18,7 +18,7 @@ jobs:
           server: ftp.bienseguro.net
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          dry-run: true
+          dry-run: false # Set `true` to test deployment without making changes
           exclude: |
             **/.git*
             **/.git*/**
