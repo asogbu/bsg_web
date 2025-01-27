@@ -19,3 +19,12 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           dry-run: true
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            scss/**
+            LICENSE
+            README.md
+            package-lock.json
+            package.json
