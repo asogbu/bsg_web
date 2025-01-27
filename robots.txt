@@ -1,10 +1,8 @@
 User-agent: *
-Disallow: /css/
-Disallow: /data/
-Disallow: /fonts/
 Disallow: /img/
-Disallow: /js/
+Allow: /img/carrusel/
 Disallow: /partials/
+Disallow: /*?*
 Allow: /
 
 Sitemap: https://bienseguro.net/sitemap.xml
