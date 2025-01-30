@@ -53,4 +53,4 @@ The primary natural language for this project is Spanish.
 
 ## License
 
-This project is licensed under the [MIT](LICENSE) license. You are free to use, modify, and distribute it under the terms of the license.
+This project is licensed under the [...](LICENSE) license.
