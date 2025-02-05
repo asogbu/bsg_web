@@ -4,65 +4,77 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
-  <loc>https://bienseguro.net/</loc>
-  <lastmod>2025-02-05T05:07:20+00:00</lastmod>
+  <loc>https://www.bienseguro.net/</loc>
+  <lastmod>2025-02-05T05:55:52+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/seguros/autos.html</loc>
-  <lastmod>2025-02-05T00:16:17+00:00</lastmod>
+  <loc>https://www.bienseguro.net/seguros/autos.html</loc>
+  <lastmod>2025-02-05T05:55:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/seguros/gastos-medicos.html</loc>
-  <lastmod>2025-02-05T00:16:17+00:00</lastmod>
+  <loc>https://www.bienseguro.net/seguros/gastos-medicos.html</loc>
+  <lastmod>2025-02-05T05:55:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/seguros/hogar.html</loc>
-  <lastmod>2025-02-05T00:16:17+00:00</lastmod>
+  <loc>https://www.bienseguro.net/seguros/hogar.html</loc>
+  <lastmod>2025-02-05T05:55:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/seguros/vida-accidentes.html</loc>
-  <lastmod>2025-02-05T00:16:18+00:00</lastmod>
+  <loc>https://www.bienseguro.net/seguros/vida-accidentes.html</loc>
+  <lastmod>2025-02-05T05:55:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/seguros/viaje.html</loc>
-  <lastmod>2025-02-05T00:16:18+00:00</lastmod>
+  <loc>https://www.bienseguro.net/seguros/viaje.html</loc>
+  <lastmod>2025-02-05T05:55:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/seguros/empresarial.html</loc>
-  <lastmod>2025-02-05T00:16:17+00:00</lastmod>
+  <loc>https://www.bienseguro.net/seguros/empresarial.html</loc>
+  <lastmod>2025-02-05T05:55:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/seguros/transporte.html</loc>
-  <lastmod>2025-02-05T00:16:18+00:00</lastmod>
+  <loc>https://www.bienseguro.net/seguros/transporte.html</loc>
+  <lastmod>2025-02-05T05:55:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/seguros/responsabilidad-civil.html</loc>
-  <lastmod>2025-02-05T00:16:18+00:00</lastmod>
+  <loc>https://www.bienseguro.net/seguros/responsabilidad-civil.html</loc>
+  <lastmod>2025-02-05T05:55:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/fianzas.html</loc>
-  <lastmod>2025-02-05T00:16:16+00:00</lastmod>
+  <loc>https://www.bienseguro.net/fianzas.html</loc>
+  <lastmod>2025-02-05T05:55:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/contact.html</loc>
-  <lastmod>2025-02-05T00:16:16+00:00</lastmod>
+  <loc>https://www.bienseguro.net/contact.html</loc>
+  <lastmod>2025-02-05T05:55:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bienseguro.net/faq.html</loc>
-  <lastmod>2025-02-05T00:16:16+00:00</lastmod>
+  <loc>https://www.bienseguro.net/faq.html</loc>
+  <lastmod>2025-02-05T05:55:52+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.bienseguro.net/404.html</loc>
+  <lastmod>2025-02-05T05:55:52+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.bienseguro.net/about.html</loc>
+  <lastmod>2025-02-05T05:55:52+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 
