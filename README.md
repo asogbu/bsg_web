@@ -24,7 +24,6 @@ The primary natural language for this project is Spanish.
 ├── .github/workflows/deploy.yaml   # Auto FTP deployment via GitHub Actions
 ├── css/style.css                   # Main stylesheet (compiled from SCSS)
 ├── data/carrusel.json              # Main page carousel configuration data
-├── fonts/eras-itc-medium.ttf       # Brand typography
 ├── img/                            # Graphic resources
 ├── js/
 │   ├── carrusel.js                 # Carousel logic
