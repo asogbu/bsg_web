@@ -5,4 +5,4 @@ Disallow: /partials/
 Disallow: /*?*
 Allow: /
 
-Sitemap: https://bienseguro.net/sitemap.xml
+Sitemap: https://www.bienseguro.net/sitemap.xml
