@@ -48,9 +48,3 @@ The primary natural language for this project is Spanish.
 ├── robots.txt                      # Instructions for search engine crawlers
 └── sitemap.xml                     # Sitemap for search engines
 ```
-
----
-
-## License
-
-This project is licensed under the [...](LICENSE) license.
