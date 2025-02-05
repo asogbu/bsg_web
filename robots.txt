@@ -1,7 +1,4 @@
 User-agent: *
-Disallow: /img/
-Allow: /img/carrusel/
-Disallow: /partials/
 Disallow: /*?*
 Allow: /
 
