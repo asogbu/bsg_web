@@ -54,7 +54,7 @@ function loadCarouselItems(jsonData) {
         let content;
         if (itemMIME.startsWith('video')) {
             const video = document.createElement('video');
-            video.classList.add('carrusel-content');
+            video.classList.add('w-100', 'd-block', 'carrusel-content');
             video.autoplay = true;
             video.loop = true;
             video.muted = true;
@@ -68,7 +68,7 @@ function loadCarouselItems(jsonData) {
             content = video;
         } else {
             const img = document.createElement('img');
-            img.classList.add('carrusel-content');
+            img.classList.add('w-100', 'd-block', 'carrusel-content');
             img.src = carrusel_folder + file_name;
             img.alt = alt || `Elemento de carrusel: ${file_name}`;
             content = img;

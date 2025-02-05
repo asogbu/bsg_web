@@ -22,27 +22,12 @@ main {
     background: linear-gradient(0deg, rgba(25, 28, 31, 0.15) 40%, rgba(255, 255, 255, 0) 55%, rgba(148, 30, 22, 0.2) 100%);
 }
 
-.index-card {
-    @extend .col-md-3;
-    @extend .col-sm-4;
-    @extend .col-6;
-}
-
-.index-card-img {
-    @extend .card-img;
-    aspect-ratio: 16 / 9;
-    object-fit: contain;
-}
-
 .logo-socios {
     width: auto;
     height: 30px;
-    object-fit: contain;
 }
 
 .carrusel-content {
-    @extend .w-100;
-    @extend .d-block;
     object-fit: cover;
     aspect-ratio: 48 / 9;
 }
