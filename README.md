@@ -6,7 +6,7 @@
 
 The website is designed to be responsive, easy to navigate, and maintain. It uses modern web technologies and includes SEO optimizations (meta tags, Open Graph metadata, JSON-LD structured data), accessibility improvements, and Google Analytics integration. Additionally, it includes `robots.txt` and `sitemap.xml` files to ensure efficient search engine crawling and indexing.
 
-**Note**: JSON-LD structured data and Google Analytics are **not yet fully implemented**.
+**Note**: Google Analytics is **not yet implemented**.
 
 ---
 
