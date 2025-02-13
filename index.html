@@ -113,34 +113,42 @@
     </header>
 
     <main>
-        <!-- Carousel -->
+        <!-- Carrusel -->
+        <div>
+            <style>
+                .carrusel-content {
+                    object-fit: cover;
+                    aspect-ratio: 48 / 9;
+                }
 
-        <!-- Encendido -->
-        <div id="carouselHero" class="carousel carousel-fade slide col-12" data-bs-ride="carousel"
-            data-bs-interval="7500">
-        <!-- Encendido -->
-
-        <!-- Apagado -->
-        <!-- <div id="carouselHero" class="carousel slide col-12"> -->
-        <!-- Apagado -->
-
-            <div class="carousel-indicators" id="carouselIndicators">
-                <!-- Carousel Indicators (JS-loaded) -->
+                /* Pantallas xs, s */
+                @media (max-width: 767px) {
+                    .carrusel-content {
+                        aspect-ratio: 3 / 1;
+                    }
+                }
+            </style>
+    
+            <div id="carouselHero" class="carousel carousel-fade slide col-12"
+                data-bs-ride="carousel" data-bs-interval="7500">
+                <div class="carousel-indicators" id="carouselIndicators">
+                    <!-- Carousel Indicators (JS-loaded) -->
+                </div>
+                <div class="carousel-inner w-100 d-block carrusel-content" id="carouselItems">
+                    <!-- Carousel Items (JS-loaded) -->
+                </div>
+            
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselHero" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselHero" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner w-100 d-block carrusel-content" id="carouselItems">
-                <!-- Carousel Items (JS-loaded) -->
-            </div>
-        
-            <button class="carousel-control-prev" type="button"
-                data-bs-target="#carouselHero" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button"
-                data-bs-target="#carouselHero" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
 
         <!-- Frase -->

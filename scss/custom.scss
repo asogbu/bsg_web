@@ -13,15 +13,3 @@ $primary: #941E16;
 main {
     background: linear-gradient(0deg, rgba(25, 28, 31, 0.15) 40%, rgba(255, 255, 255, 0) 55%, rgba(148, 30, 22, 0.2) 100%);
 }
-
-.carrusel-content {
-    object-fit: cover;
-    aspect-ratio: 48 / 9;
-}
-
-// Pantallas xs, s
-@media (max-width: 767px) {
-    .carrusel-content {
-        aspect-ratio: 3 / 1;
-    }
-}
