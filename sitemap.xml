@@ -8,7 +8,7 @@
 
 <url>
   <loc>https://www.bienseguro.net/</loc>
-  <lastmod>2025-02-12</lastmod>
+  <lastmod>2025-02-13</lastmod>
   <priority>1.0</priority>
 </url>
 <url>
@@ -63,18 +63,13 @@
 </url>
 <url>
   <loc>https://www.bienseguro.net/faq.html</loc>
-  <lastmod>2025-02-12</lastmod>
+  <lastmod>2025-02-17</lastmod>
   <priority>0.4</priority>
 </url>
 <url>
   <loc>https://www.bienseguro.net/about.html</loc>
   <lastmod>2025-02-12</lastmod>
   <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://www.bienseguro.net/404.html</loc>
-  <lastmod>2025-02-04</lastmod>
-  <priority>0.1</priority>
 </url>
 
 </urlset>
