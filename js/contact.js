@@ -28,25 +28,25 @@ document.addEventListener("DOMContentLoaded", () => {
     if (params.message) {
         document.getElementById("message").value = params.message;
     }
+});
 
-    document.querySelector('form').addEventListener('submit', function(event) {
-        var subjectText = {
-            'general': 'Información General',
-            'auto': 'Seguro de Automóvil',
-            'moto': 'Seguro de Motocicletas',
-            'gmm': 'Gastos Médicos',
-            'hogar': 'Seguro de Hogar',
-            'vida': 'Seguro de Vida',
-            'accidentes': 'Accidentes Personales',
-            'viaje': 'Seguro de Viaje',
-            'empresariales': 'Soluciones Empresariales',
-            'transporte': 'Seguro de Transporte',
-            'rescivil': 'Seguro de Responsabilidad Civil',
-            'fianzas': 'Fianzas',
-            'otro': 'Otro'
-        };
-        
-        var subjectValue = document.getElementById('subject').value;
-        document.querySelector('input[name="_subject"]').value = 'Nuevo mensaje en bienseguro.net: ' + subjectText[subjectValue];
-    });
+document.querySelector('form').addEventListener('submit', function(event) {
+    var subjectText = {
+        'general': 'Información General',
+        'auto': 'Seguro de Automóvil',
+        'moto': 'Seguro de Motocicletas',
+        'gmm': 'Gastos Médicos',
+        'hogar': 'Seguro de Hogar',
+        'vida': 'Seguro de Vida',
+        'accidentes': 'Accidentes Personales',
+        'viaje': 'Seguro de Viaje',
+        'empresariales': 'Soluciones Empresariales',
+        'transporte': 'Seguro de Transporte',
+        'rescivil': 'Seguro de Responsabilidad Civil',
+        'fianzas': 'Fianzas',
+        'otro': 'Otro'
+    };
+    
+    var subjectValue = document.getElementById('subject').value;
+    document.querySelector('input[name="_subject"]').value = 'bienseguro.net: ' + subjectText[subjectValue];
 });
