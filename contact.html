@@ -84,12 +84,13 @@
         <section class="py-4">
             <div class="container">
                 <form action="https://formsubmit.co/b079825d88424e22a5971c23a8e1e3aa" method="POST">
+                    <!-- Nombre -->
                     <div class="mb-3">
                         <label for="name" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="name" name="name" required>
                     </div>
         
-                    <!-- Fila para email y teléfono -->
+                    <!-- Email y teléfono -->
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label for="email" class="form-label">Correo Electrónico</label>
@@ -101,6 +102,7 @@
                         </div>
                     </div>
         
+                    <!-- Asunto -->
                     <div class="mb-3">
                         <label for="subject" class="form-label">Asunto</label>
                         <select class="form-select" id="subject" name="subject" required>
@@ -120,10 +122,16 @@
                             <option value="otro">Otro</option>
                         </select>
                     </div>
-        
+                    
+                    <!-- Mensaje -->
                     <div class="mb-3">
                         <label for="message" class="form-label">Mensaje</label>
                         <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+
+                    <!-- Configuracion -->
+                    <div>
+                        <input type="hidden" name="_next" value="https://www.bienseguro.net/thanks.html">
                     </div>
         
                     <div class="mb-3 text-center">
