@@ -6,8 +6,6 @@
 
 The website is designed to be responsive, easy to navigate, and maintain. It uses modern web technologies and includes SEO optimizations (meta tags, Open Graph metadata, JSON-LD structured data), accessibility improvements, and Google Analytics integration. Additionally, it includes `robots.txt` and `sitemap.xml` files to ensure efficient search engine crawling and indexing.
 
-**Note**: Google Analytics is **not yet implemented**.
-
 ---
 
 ## Technologies Used
@@ -46,7 +44,8 @@ The website is designed to be responsive, easy to navigate, and maintain. It use
 ├── scss/custom.scss                # Custom SCSS styles
 ├── seguros/                        # Insurance-specific pages
 ├── .gitignore                      # Git ignore file
-├── 404.html                        # Custom 404 error page
+├── .htaccess                       # Configures 404 error page
+├── 404.shtml                       # Custom 404 error page
 ├── README.md                       # Project description
 ├── about.html                      # About Us page
 ├── contact.html                    # Contact page
@@ -58,5 +57,6 @@ The website is designed to be responsive, easy to navigate, and maintain. It use
 ├── package-lock.json               # Dependency lock file
 ├── package.json                    # Project dependencies
 ├── robots.txt                      # Search engine crawling rules
-└── sitemap.xml                     # Sitemap for search engines
+├── sitemap.xml                     # Sitemap for search engines
+└── thanks.html                     # Contact form thanks page
 ```
