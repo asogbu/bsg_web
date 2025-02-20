@@ -30,19 +30,36 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-document.querySelector('form').addEventListener('submit', function(event) {
+document.querySelector('form').addEventListener('submit', function (event) {
+    // Change button "Enviar" to "Enviando..." adding a loading spinner
+    const submitBtn = document.getElementById('submit-btn');
+
+    submitBtn.textContent = 'Enviando...';
+    
+    const spinner = document.createElement('div');
+    spinner.classList.add('spinner-border', 'spinner-border-sm', 'ms-2');
+    spinner.setAttribute('role', 'status');
+
+    const span = document.createElement('span');
+    span.classList.add('visually-hidden');
+    span.textContent = 'Loading...';
+
+    spinner.appendChild(span);
+    submitBtn.appendChild(spinner);
+    
+    // Setting for form email subject
     var subjectText = {
         'general': 'Información General',
-        'auto': 'Seguro de Automóvil',
-        'moto': 'Seguro de Motocicletas',
+        'auto': 'Automóvil',
+        'moto': 'Motocicletas',
         'gmm': 'Gastos Médicos',
-        'hogar': 'Seguro de Hogar',
-        'vida': 'Seguro de Vida',
+        'hogar': 'Hogar',
+        'vida': 'Vida',
         'accidentes': 'Accidentes Personales',
-        'viaje': 'Seguro de Viaje',
-        'empresariales': 'Soluciones Empresariales',
-        'transporte': 'Seguro de Transporte',
-        'rescivil': 'Seguro de Responsabilidad Civil',
+        'viaje': 'Viaje',
+        'empresariales': 'Empresariales',
+        'transporte': 'Transporte',
+        'rescivil': 'Responsabilidad Civil',
         'fianzas': 'Fianzas',
         'otro': 'Otro'
     };
