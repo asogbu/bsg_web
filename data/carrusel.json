@@ -15,6 +15,21 @@
         "alt": "¡Protege tu Pick-Up! Porque no es solo un vehículo, es una herramienta de trabajo y aventura. ¡No la dejes sin protección! ¡Cotiza ahora y conduce sin preocupaciones! Tu Pick-Up merece la mejor protección."
     },
     {
+        "fileName": "casa.jpg",
+        "link": "/seguros/hogar.html",
+        "alt": "Seguro Casa Habitación. Cuida de tu hogar y da tranquilidad a tu Familia."
+    },
+    {
+        "fileName": "automotrices.jpg",
+        "link": "/seguros/autos.html",
+        "alt": "30% descuento. Seguro de: automóviles, motocicletas, pick ups, camiones, tractocamiones, entre otros..."
+    },
+    {
+        "fileName": "gm-inter.jpg",
+        "link": "/seguros/gastos-medicos.html",
+        "alt": "Gastos Medicos Internacional. ¡Viaja tranquilo, vive sin límites y asegúrate de tener el respaldo que necesitas! Protege lo más importante, tu salud y la de tu familia, en cualquier parte del mundo con un seguro de gastos médicos mayores internacional. Con cobertura para emergencias, hospitalizaciones y tratamientos especializados estarás preparado para lo inesperado, sin importar donde te encuentres."
+    },
+    {
         "fileName": "empresarial.gif",
         "link": "/seguros/empresariales.html",
         "alt": "Seguro Empresarial. Cuida tu negocio o comercio para que esté protegido contra percances que puedan ponerlo en riesgo. Te ofrecemos un plan de coberturas reunidas en una sola póliza: Coberturas por contenidos, daños al Edificio, cristales, anuncios, dinero y valores, robo de mercancías, equipos electrónicos, rotura de maquinaria, calderas y aparatos sujetos a presión y daños a terceros en el ejercicio de tus actividades empresariales."
@@ -33,5 +48,10 @@
         "fileName": "contratistas.gif",
         "link": "/seguros/empresariales.html",
         "alt": "Equipo de Contratistas. Es un seguro disenado para proteger tu equipo o maquinaria pesada ante os riesgos a los que esta expuesto en su entorno de trabajo, ademas, con la cobertura de Responsabilidad civil, te brinda respaldo en caso de que tu equipo cause daños a terceros mientras está en funcionamiento."
+    },
+    {
+        "fileName": "gm-menores.jpg",
+        "link": "/seguros/gastos-medicos.html",
+        "alt": "Gasatos Médicos Menores. Una nueva forma de ciudar tu salud. Te ofrecemos un seguro que te da acceso a diferentes servicios de atención médica, a un excelente costo. 3 y 6 meses sin intereses con tarjetas participantes. Incluye: check up anual, consultas ilimitadas de 1ra atención, consultas de especialidades, consultas de nutrición y de psicología, orientación médica telefónica 24/7, atención médica domiciliaria, servicio de ambulacia por emergencia, terapias físicas y estudios de laboratorio."
     }
 ]
