@@ -1,12 +1,37 @@
 [
     {
-        "fileName": "viaja_protegido.png",
+        "fileName": "viaja-protegido.gif",
         "link": "/seguros/viaje.html",
         "alt": "Viaja protegido. Este 2025 viaja feliz y tranquilo. Solo pagan 2 personas mayores a 23 años y viajan con asistencia gratuita hasta 4 menores de esa edad."
     },
     {
-        "fileName": "gm_inter.png",
+        "fileName": "moto.gif",
+        "link": "/seguros/autos.html",
+        "alt": "Seguro de Motocicleta. Porotege tu libertad en cada viaje. 25% de descuento."
+    },
+    {
+        "fileName": "pick-up.gif",
+        "link": "/seguros/autos.html",
+        "alt": "¡Protege tu Pick-Up! Porque no es solo un vehículo, es una herramienta de trabajo y aventura. ¡No la dejes sin protección! ¡Cotiza ahora y conduce sin preocupaciones! Tu Pick-Up merece la mejor protección."
+    },
+    {
+        "fileName": "empresarial.gif",
+        "link": "/seguros/empresariales.html",
+        "alt": "Seguro Empresarial. Cuida tu negocio o comercio para que esté protegido contra percances que puedan ponerlo en riesgo. Te ofrecemos un plan de coberturas reunidas en una sola póliza: Coberturas por contenidos, daños al Edificio, cristales, anuncios, dinero y valores, robo de mercancías, equipos electrónicos, rotura de maquinaria, calderas y aparatos sujetos a presión y daños a terceros en el ejercicio de tus actividades empresariales."
+    },
+    {
+        "fileName": "gm-mayores.gif",
         "link": "/seguros/gastos-medicos.html",
-        "alt": "Gastos Medicos Internacional. ¡Viaja tranquilo, vive sin límites y asegúrate de tener el respaldo que necesitas! Protege lo más importante, tu salud y la de tu familia, en cualquier parte del mundo con un seguro de gastos médicos mayores internacional. Con cobertura para emergencias, hospitalizaciones y tratamientos especializados estarás preparado para lo inesperado, sin importar donde te encuentres."
+        "alt": "Gastos Médicos Mayores. Comprar una póliza de gastos médicos mayores es una excelente inversión para proteger tu salud y tus finanzas, ya que te brinda excelentes beneficios. 10% OFF de descuento para nuevos asegurados. Cobertura integral. Acceso a atención médica de calidad. Protección financiera. Flexibilidad de planes. Atención médica en tiempo. Asistencia médica las 24 horas."
+    },
+    {
+        "fileName": "accidentes-personales.gif",
+        "link": "/seguros/vida-accidentes.html",
+        "alt": "Seguro de Accidentes Personales. Cobertura por Accidentes: Se reembolzan los gastos realizados a causa de un accidente. Muerte Accidental: Indemniza la Suma Asegurada contratada. Pérdidas Orgánicas: Se indeminiza de acuerdo a la incapacidad generada."
+    },
+    {
+        "fileName": "contratistas.gif",
+        "link": "/seguros/empresariales.html",
+        "alt": "Equipo de Contratistas. Es un seguro disenado para proteger tu equipo o maquinaria pesada ante os riesgos a los que esta expuesto en su entorno de trabajo, ademas, con la cobertura de Responsabilidad civil, te brinda respaldo en caso de que tu equipo cause daños a terceros mientras está en funcionamiento."
     }
 ]
