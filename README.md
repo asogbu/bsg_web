@@ -45,7 +45,7 @@ The website is designed to be responsive, easy to navigate, and maintain. It use
 ├── seguros/                        # Insurance-specific pages
 ├── .gitignore                      # Git ignore file
 ├── .htaccess                       # Configures 404 error page
-├── 404.html                       # Custom 404 error page
+├── 404.html                        # Custom 404 error page
 ├── README.md                       # Project description
 ├── about.html                      # About Us page
 ├── contact.html                    # Contact page
