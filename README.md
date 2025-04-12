@@ -49,6 +49,7 @@ The website is designed to be responsive, easy to navigate, and maintain. It use
 ├── README.md                       # Project description
 ├── about.html                      # About Us page
 ├── contact.html                    # Contact page
+├── cotizador.html                  # Mirror page for the quote comparison site
 ├── faq.html                        # FAQ page
 ├── favicon.ico                     # Site favicon
 ├── fianzas.html                    # Surety Bonds page
