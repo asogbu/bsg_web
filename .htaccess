@@ -1,1 +1,11 @@
+# Don't list files in directory
+
+Options -Indexes
+
+# Enable mod_rewrite
+
+RewriteEngine On
+
+# Set 404 page
+
 ErrorDocument 404 /404.html
