@@ -56,21 +56,24 @@
 
 <body>
     <script>
-        window.addEventListener("load", function () {
-            const navbar = document.querySelector('.navbar');
-            const toggler = document.querySelector('.navbar-toggler');
+        function changeOpacity() {
             const expandedOpacity = '1';
             const collapsedOpacity = '0.85';
 
-            navbar.style.opacity = collapsedOpacity;
+            const navbar = document.querySelector('.navbar');
+            const toggler = document.querySelector('.navbar-toggler');
 
-            toggler.addEventListener('click', () => {
-                if (toggler.classList.contains('collapsed')) {
-                    navbar.style.opacity = collapsedOpacity;
-                } else {
-                    navbar.style.opacity = expandedOpacity;
-                }
-            });
+            if (toggler.classList.contains('collapsed')) {
+                navbar.style.opacity = collapsedOpacity;
+            } else {
+                navbar.style.opacity = expandedOpacity;
+            }
+        }
+
+        window.addEventListener("load", () => {
+            changeOpacity();
+            const toggler = document.querySelector('.navbar-toggler');
+            toggler.addEventListener('click', changeOpacity);
         });
     </script>
     
