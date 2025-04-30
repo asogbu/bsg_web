@@ -56,32 +56,20 @@
 
 <body>
     <script>
-        function changeOpacity() {
-            const expandedOpacity = '1';
-            const collapsedOpacity = '0.85';
-
-            const navbar = document.querySelector('.navbar');
-            const toggler = document.querySelector('.navbar-toggler');
-
-            if (toggler.classList.contains('collapsed')) {
-                navbar.style.opacity = collapsedOpacity;
-            } else {
-                navbar.style.opacity = expandedOpacity;
-            }
-        }
-
         window.addEventListener("load", () => {
-            changeOpacity();
             const toggler = document.querySelector('.navbar-toggler');
-            toggler.addEventListener('click', changeOpacity);
+            toggler.addEventListener('click', function () {
+                header = document.querySelector('header');
+                if (this.classList.contains('collapsed')) {
+                    header.classList.add("opacity-85");
+                } else {
+                    header.classList.remove("opacity-85");
+                }
+            });
         });
     </script>
     
     <style>
-        .navbar {
-            transition: opacity 0.25s ease;
-        }
-    
         .navbar-brand {
             height: 50px;
             display: flex;
@@ -89,7 +77,7 @@
         }
     </style>
 
-    <header class="fixed-top">
+    <header class="fixed-top opacity-md-100 opacity-85" style="transition: opacity 0.25s ease;">
         <!-- Navbar (JS-loaded) -->
     </header>
 

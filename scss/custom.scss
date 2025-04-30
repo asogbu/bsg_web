@@ -13,3 +13,30 @@ $primary: #941E16;
 main {
     background: linear-gradient(0deg, rgba(25, 28, 31, 0.15) 40%, rgba(255, 255, 255, 0) 55%, rgba(148, 30, 22, 0.2) 100%);
 }
+
+$utilities: map-merge(
+    $utilities,
+    (
+        "opacity": map-merge(
+            map-get($utilities, "opacity"),
+            (responsive: true)
+        )
+    )
+);
+
+$utilities: map-merge(
+    $utilities,
+    (
+        "opacity": map-merge(
+            map-get($utilities, "opacity"),
+            (
+                values: map-merge(
+                    map-get(map-get($utilities, "opacity"), "values"),
+                    (85: .85)
+                )
+            )
+        )
+    )
+);
+
+@import "../node_modules/bootstrap/scss/utilities/api";
