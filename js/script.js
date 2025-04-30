@@ -1,4 +1,4 @@
-function includeHTML(selector, file, callback) {
+function includeHTML(selector, file) {
     const container = document.querySelector(selector);
     if (container)
         fetch(file)
@@ -8,8 +8,6 @@ function includeHTML(selector, file, callback) {
             })
             .then(html => {
                 container.innerHTML = html;
-                if (typeof callback == "function")
-                    callback();
             })
             .catch(error => console.error(error));
 }
@@ -23,14 +21,8 @@ function loadBootstrapJS() {
     document.body.appendChild(script);
 }
 
-function navbarPadding() {
-    const navbar = document.querySelector(".navbar.fixed-top");
-    const body = document.body;
-    body.style.paddingTop = `${navbar.offsetHeight}px`;
-}
-
 document.addEventListener("DOMContentLoaded", () => {
-    includeHTML("header", "/partials/navbar.html", navbarPadding);
+    includeHTML("header", "/partials/navbar.html");
     includeHTML("footer", "/partials/footer.html");
     loadBootstrapJS();
 });

@@ -55,13 +55,20 @@
 </head>
 
 <body style="height: 100vh">
-    <header>
+    <style>
+        .navbar-brand {
+            height: 50px;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+
+    <header class="fixed-top">
         <!-- Navbar (JS-loaded) -->
     </header>
 
-    <iframe src="https://bienseguro.segurocotizas.com/" scrolling="yes"
-        frameborder="0" style="height: calc(100% + 71px); width: 100%;
-        margin-bottom: -6px; margin-top: -65px;"></iframe>
+    <iframe src="https://bienseguro.segurocotizas.com/"
+         style="height: 100%; width: 100%; margin-bottom: -6px;"></iframe>
     
     <script src="/js/script.js" defer></script>
 </body>
