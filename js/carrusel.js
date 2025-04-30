@@ -77,7 +77,6 @@ function loadCarouselItems(jsonData) {
         if (link) {
             const anchor = document.createElement('a');
             anchor.href = link;
-            anchor.target = '_blank';
             anchor.appendChild(content);
             divItem.appendChild(anchor);
         } else {
