@@ -55,6 +55,13 @@
 </head>
 
 <body>
+    <header class="fixed-top opacity-md-100 opacity-85" style="transition: opacity 0.25s ease;">
+        <!-- Navbar (JS-loaded) -->
+    </header>
+
+    <iframe src="https://bienseguro.segurocotizas.com/"
+        style="height: 100vh; width: 100%; margin-bottom: -6px;"></iframe>
+
     <script>
         window.addEventListener("load", () => {
             const toggler = document.querySelector('.navbar-toggler');
@@ -67,15 +74,11 @@
                 }
             });
         });
+
+        if (CSS.supports('height', '100dvh'))
+            document.querySelector('iframe').style.height = '100dvh';
     </script>
 
-    <header class="fixed-top opacity-md-100 opacity-85" style="transition: opacity 0.25s ease;">
-        <!-- Navbar (JS-loaded) -->
-    </header>
-
-    <iframe src="https://bienseguro.segurocotizas.com/"
-         style="height: 100vh; width: 100%; margin-bottom: -6px;"></iframe>
-    
     <script src="/js/script.js" defer></script>
 </body>
 
