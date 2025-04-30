@@ -1,15 +1,17 @@
 function includeHTML(selector, file, callback) {
-    fetch(file)
-        .then(response => {
-            if (response.ok) return response.text();
-            throw new Error('Error al cargar ' + file);
-        })
-        .then(html => {
-            document.querySelector(selector).innerHTML = html;
-            if (typeof callback == "function")
-                callback();
-        })
-        .catch(error => console.error(error));
+    const container = document.querySelector(selector);
+    if (container)
+        fetch(file)
+            .then(response => {
+                if (response.ok) return response.text();
+                throw new Error('Error al cargar ' + file);
+            })
+            .then(html => {
+                container.innerHTML = html;
+                if (typeof callback == "function")
+                    callback();
+            })
+            .catch(error => console.error(error));
 }
 
 function loadBootstrapJS() {
