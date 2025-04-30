@@ -13,6 +13,6 @@
   "description": "",
   "dependencies": {
     "bootstrap": "^5.3.5",
-    "sass": "^1.83.4"
+    "sass": "^1.87.0"
   }
 }
