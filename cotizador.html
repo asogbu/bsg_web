@@ -55,7 +55,30 @@
 </head>
 
 <body>
+    <script>
+        window.addEventListener("load", function () {
+            const navbar = document.querySelector('.navbar');
+            const toggler = document.querySelector('.navbar-toggler');
+            const expandedOpacity = '1';
+            const collapsedOpacity = '0.85';
+
+            navbar.style.opacity = collapsedOpacity;
+
+            toggler.addEventListener('click', () => {
+                if (toggler.classList.contains('collapsed')) {
+                    navbar.style.opacity = collapsedOpacity;
+                } else {
+                    navbar.style.opacity = expandedOpacity;
+                }
+            });
+        });
+    </script>
+    
     <style>
+        .navbar {
+            transition: opacity 0.25s ease;
+        }
+    
         .navbar-brand {
             height: 50px;
             display: flex;
