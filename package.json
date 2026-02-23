@@ -1,16 +1,12 @@
 {
   "name": "bsg_web",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass scss/custom.scss css/style.css --style compressed --no-source-map",
     "sass-watch": "sass --watch scss/custom.scss css/style.css --style compressed --no-source-map"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Santiago Orozco",
   "dependencies": {
     "bootstrap": "^5.3.5",
     "sass": "^1.87.0"
