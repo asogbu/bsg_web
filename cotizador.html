@@ -54,30 +54,14 @@
     <link rel="apple-touch-icon" href="/img/icon-180x180.png" type="image/png" sizes="180x180">
 </head>
 
-<body style="overflow: hidden;">
-    <header class="fixed-top opacity-md-85 opacity-85" style="transition: opacity 0.25s ease;">
+<body class="d-flex flex-column overflow-hidden" style="height: 100vh; height: 100dvh;">
+    <header class="sticky-top flex-shrink-0">
         <!-- Navbar (JS-loaded) -->
     </header>
 
-    <iframe src="https://bienseguro.segurocotizas.com/"
-        style="height: 100vh; width: 100%; margin-bottom: -6px;"></iframe>
-
-    <script>
-        window.addEventListener("load", () => {
-            const toggler = document.querySelector('.navbar-toggler');
-            toggler.addEventListener('click', function () {
-                header = document.querySelector('header');
-                if (this.classList.contains('collapsed')) {
-                    header.classList.add("opacity-85");
-                } else {
-                    header.classList.remove("opacity-85");
-                }
-            });
-        });
-
-        if (CSS.supports('height', '100dvh'))
-            document.querySelector('iframe').style.height = '100dvh';
-    </script>
+    <main class="flex-fill">
+        <iframe src="https://bienseguro.segurocotizas.com/"  class="h-100 w-100 border-0"></iframe>
+    </main>
 
     <script src="/js/script.js" defer></script>
 </body>
